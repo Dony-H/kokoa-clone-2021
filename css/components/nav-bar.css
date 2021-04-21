@@ -27,8 +27,8 @@
   width: 10px;
   height: 10px;
   border-radius: 5px;
-  display: inline;
-  display: flex-end;
+  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
