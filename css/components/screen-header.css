@@ -4,6 +4,7 @@
   align-items: center;
   padding: var(--horizontal-space);
   margin-bottom: 15px;
+  position: relative;
 }
 
 .screen-header__title {
@@ -13,4 +14,17 @@
 
 .screen-header__icons span {
   margin-left: 25px;
+}
+
+.screen-header__icons__point {
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin: 0px;
+  background-color: tomato;
+  position: absolute;
+  justify-content: flex;
+  top: 22px;
+  right: 22px;
 }
